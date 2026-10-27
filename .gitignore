@@ -1,0 +1,9 @@
+# ignore Python's virtual environment
+venv
+
+# ignore Python cache folders
+__pycache__
+
+# Meant to contain all scraped data
+data
+code/data
