@@ -65,6 +65,7 @@ for pokemon in options:
     print(f"{code} - {pokemon["name"]}")
     code = chr(ord(code) + 1)
 img.show()
+img.close()
 
 # get user's answer
 answer = input().strip().upper()
